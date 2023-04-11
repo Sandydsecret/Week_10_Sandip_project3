@@ -32,9 +32,9 @@ public class MultiBrowserTesting {
         //Print the page source
         System.out.println("Page Source: " + driver.getPageSource());
         //Enter the email to email field
-        driver.findElement(By.id("username")).sendKeys("Maitriborad@gmail.com");
+        driver.findElement(By.id("username")).sendKeys("sandydsecret@gmail.com");
         //Enter the password to password field
-        driver.findElement(By.id("password")).sendKeys("Maitri@123");
+        driver.findElement(By.id("password")).sendKeys("Sandy@1124");
         //Close the browser
         driver.close();
     }
